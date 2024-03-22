@@ -14,7 +14,8 @@ function App() {
       {/* CreatePostForm */}
       {/* Feed */}
 
-      <Post />
+      <Post content ="This is a test post!"/>
+      <Post content ="This is another test post!"/>
 
     </div>
   )
