@@ -1,4 +1,5 @@
 import React from "react";
+import Comment from "./Comment";
 
 function Post(){
     return(
@@ -7,6 +8,9 @@ function Post(){
             <p>This is a test post</p>
             <p>Likes: 30</p>
             <p>Comments:</p>
+            <Comment content="This is a test comment"/>
+            <Comment content="another test comment"/>
+            <Comment content="AND ANOTHER test comment"/>
         </div>
     )
 }
