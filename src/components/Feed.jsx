@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import React from 'react'
 import Post from './Post'
-import CreatePostForm from './CreatePostForm'
 
 
 function Feed(props) {

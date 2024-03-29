@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Comment from "./Comment";
-import CreatePostForm from "./CreatePostForm";
 
 function Post(props){
 
