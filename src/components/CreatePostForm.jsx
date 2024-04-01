@@ -24,7 +24,7 @@ function CreatePostForm(props){
     return(
         <form onSubmit={handleSubmit}>
             <label for="title">Post Title: </label>
-            <input type="text" name="title" onChange={titleChange} value={postTitle} />
+            <input type="text" name="title" onChange={titleChange} value={postTitle}/>
             <br />
             <label for="content">Post Content: </label>
             <input type="text" name="content" onChange={contentChange} value={postContent} />
